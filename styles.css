@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #6C5B7B, #355C7D);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #navbar li {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffcc00; /* Change font color on hover */
+  }
+  
+  .content {
+    margin-top: 70px; /* Ensure content isn't covered by navbar */
+    padding: 20px;
+  }
+  
+  #home {
+    background: linear-gradient(to right, #DCE35B, #45B649);
+    padding: 20px;
+    color: #333;
+  }
+  
+  #about, #services, #contact {
+    background: linear-gradient(to right, #FFA17F, #00223E);
+    padding: 20px;
+    color: #fff;
+  }
+  
